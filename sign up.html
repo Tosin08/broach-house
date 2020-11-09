@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand" href="#">Broach</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+   
+     <div class="collapse navbar-collapse" id="navbarSupport">
+         <ul class="navbar-nav mr-auto">
+             <li class="nav-item">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" href="#">Contact</a>
+             </li>
+         </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+                <a class="nav-link" href="login new.html">Login <i class="fa fa-user" aria-hidden="true"></i> </a>
+           </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sign up.html">Sign up <i class="fa fa-user-plus" aria-hidden="true"></i></a>
+            </li>
+         </ul>
+     </div>
+</nav>
+
+        <div class="container">     
+        <form class="mainform">  
+     <h2>Create Your Account</h2>
+<fieldset>
+<!--first name and last name begins here-->
+<label for="First">First Name:</label>
+<input name="First" id="name" type="text" required>
+    
+
+<label for="Last"> Last Name:</label>
+<input name="last" id="name" type="text" required>
+
+<!--first and last name ends here-->
+<div>
+<label for ="Male">Male:</label>
+<input name="gender" id="Male" type="radio" value="Male">
+        
+<label for ="Female">Female:</label>
+<input name="gender"  id="Female" type="radio" value="Female">
+</div>
+    <div>
+        <label >
+              Email:
+            <input name="email" type="email" placeholder="@gmail.com" required>
+        </label>
+    </div>
+        <div>
+            <ladel for="address">
+                    Address:
+                <input class="homeaddress" name="address"  type="text" placeholder="Home Address">
+            </ladel>
+    <label>
+        D.O.B:
+        <select name="Month">
+            <option>Month</option>
+            <option>Feb</option>
+            <option>March</option>
+            <option>April</option>
+        </select>
+        <select name="Day">
+            <option>Day</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        <select name="Year">
+            <option>Year</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+        </select>
+    </label>
+</div>
+         <div>
+             <label>
+                  Password: 
+                <input name="password" type="password" placeholder="****" pattern=".{5,10}" required title="Password must be between 5 and 10 characters"> 
+             </label>
+             <label>
+                Confirm Password: 
+                 <input name="password" type="password"  placeholder="****" pattern=".{5,10}" required title="Password must be between 5 and 10 characters"> 
+              </label>
+         </div>
+        
+     <div class="agreed">
+            <h5>
+             <input id="agreed" name="agreed" type="checkbox">
+                <label for="agreed"> I agree to the terms and conditions.</label>
+            </h5>
+        </div>
+    
+            <div class="btn">
+                <button class="btn-2">Create My Account</button>
+            </div>
+    </fieldset> 
+</form>
+</div>
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
